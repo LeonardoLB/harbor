@@ -1,0 +1,14 @@
+{
+  "name": "spock-cli",
+  "version": "1.0.0",
+  "description": "backbone web system project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "leonardo lemes bufalo",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
