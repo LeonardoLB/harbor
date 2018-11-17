@@ -9,6 +9,7 @@
   "author": "leonardo lemes bufalo",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "lodash": ">=4.17.5"
   }
 }
