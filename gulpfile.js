@@ -28,7 +28,10 @@ gulp.task('stylus', function () {
 });
 
 
-// WATCH
+//-----------//
+//-- WATCH --//
+//-----------//
+
 gulp.task( 'watch', function(){
 
     gulp.watch( 'src/views/pages/*', ['pug'] )
@@ -36,5 +39,8 @@ gulp.task( 'watch', function(){
 
 })
 
-// when you execute 'gulp' you are execute :
+//---------------------//
+//-- DEFAULT EXECUTE --//
+//---------------------//
+
 gulp.task( 'default', [  'watch' ] );
