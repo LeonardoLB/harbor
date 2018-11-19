@@ -24,7 +24,7 @@ gulp.task( 'pug', function(){
 gulp.task('stylus', function () {
 
     return gulp.src('src/styles/main.styl')
-        .pipe(stylus())
+        .pipe( stylus() )
         .pipe(gulp.dest('assets/css/'));
 });
 
