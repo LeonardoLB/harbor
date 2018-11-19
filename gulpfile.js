@@ -6,6 +6,7 @@
 var gulp = require( 'gulp' );
 var pug = require( 'gulp-pug' );
 var stylus = require('gulp-stylus');
+var concat = require('gulp-concat');
 
 
 
@@ -27,6 +28,12 @@ gulp.task('stylus', function () {
         .pipe(gulp.dest('assets/css/'));
 });
 
+gulp.task('scripts', function () {
+    gulp.src(['src/js/components/*.js', 'src/js/pages/*.js'])
+        .pipe(concat('bundle.js'))
+        .pipe( uglify() )
+        .pipe(gulp.dest('assets/js/'))
+});
 
 //-----------//
 //-- WATCH --//
@@ -36,6 +43,7 @@ gulp.task( 'watch', function(){
 
     gulp.watch( 'src/views/pages/*', ['pug'] )
     gulp.watch( 'src/styles/**/*', ['stylus'] )
+    gulp.watch( 'src/javascript/**/*', ['javascript'] )
 
 })
 
