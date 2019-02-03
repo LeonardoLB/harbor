@@ -47,8 +47,13 @@ A idéia é que você deixe seus componentes separados, ou seja quanto menor o a
 ---------includes // Aqui você irá criar um arquivo para cada componente .pug assim podera realizar um include caso queira.
 ------------global // Componentes globais
 ------------template
----------------main.pug // todas as paginas pug realizam um include deste template
+---------------main.pug // Todas as paginas pug realizam um include deste template
 ---------pages // Nesta pasta você poderá criar as suas páginas .pug
 ------------example.txt // exemplo de como deve ser criado as páginas
-
+---models // Aqui você poderá incorporar as models da maneira como quiser.
+---views // Aqui será redenderizado as suas páginas .pug criadas em src/views/pages/.pug em arquivos .html
+---assets
+------css // Aqui será renderizado um único arquivo .css de todos os arquivos .styl indicados no arquivo main.styl dentro da pasta src/styles/main.styl
+------images // pasta de imagens
+------js // Nesta pasta deve se encontrar o arquivo bundle.js contendo todo o js do seu projeto em um unico arquivo
 ```
