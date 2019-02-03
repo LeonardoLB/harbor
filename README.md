@@ -43,4 +43,12 @@ A idéia é que você deixe seus componentes separados, ou seja quanto menor o a
 ---------components //Aqui você irá criar um arquivo para cada componente .styl
 ---------helpers // Aqui conterá tudo aquilo que pode lhe auxiliar que não sejá um componente
 ---------main.styl // Esse é o arquivo que o gulp irá renderizar que importa as duas pastas
+------views
+---------includes // Aqui você irá criar um arquivo para cada componente .pug assim podera realizar um include caso queira.
+------------global // Componentes globais
+------------template
+---------------main.pug // todas as paginas pug realizam um include deste template
+---------pages // Nesta pasta você poderá criar as suas páginas .pug
+------------example.txt // exemplo de como deve ser criado as páginas
+
 ```
