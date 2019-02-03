@@ -1,7 +1,7 @@
 # Harbor - Estrutura para desenvolver seu Front-end
 
 Harbor é uma estrutura bem simples para fácilitar o desenvolvimento
-do seu Front-end, possibilitanto uma forma de organizar seus arquivos
+do seu Front-end, possibilitando uma forma de organizar seus arquivos
 e entregar uma estrutura mais limpa, dando a possibilidade de criar
 componentes de forma fácil e organizada, uma estrutura que te deixa
 confortável para incorporar o seu back-end da maneira que desejar.
