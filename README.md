@@ -60,11 +60,11 @@ A idéia é que você deixe seus componentes separados, ou seja quanto menor o a
 
 ## Baseado em
 
-# ITCSS
+- ITCSS
 ```
 https://willianjusten.com.br/organizando-seu-css-com-itcss/
 ```
-# OOCSS
+- OOCSS
 ```
 https://tableless.com.br/oocss-ou-css-do-jeito-certo/
 ```
