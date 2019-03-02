@@ -57,3 +57,9 @@ A idéia é que você deixe seus componentes separados, ou seja quanto menor o a
 ------images // pasta de imagens
 ------js // Nesta pasta deve se encontrar o arquivo bundle.js contendo todo o js do seu projeto em um unico arquivo
 ```
+
+## Baseado em
+
+```
+https://willianjusten.com.br/organizando-seu-css-com-itcss/
+```
