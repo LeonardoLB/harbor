@@ -74,3 +74,14 @@ A idéia é que você deixe seus componentes separados, ou seja quanto menor o a
 
 ------js // Nesta pasta deve se encontrar o arquivo bundle.js contendo todo o js do seu projeto em um unico arquivo
 ```
+
+## Baseado em
+
+- ITCSS
+```
+https://willianjusten.com.br/organizando-seu-css-com-itcss/
+```
+- OOCSS
+```
+https://tableless.com.br/oocss-ou-css-do-jeito-certo/
+```
